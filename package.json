@@ -4,6 +4,9 @@
     "build": "next build",
     "start": "next start"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.0",
     "@types/react": "18.0.35",
