@@ -37,6 +37,14 @@ const Link = styled.a`
 `;
 
 const IndexPage = () => {
+    const [isLoading, setIsLoading] = React.useState(true);
+
+    React.useEffect(() => {
+        // Simulando um tempo de carregamento de 3 segundos
+        setTimeout(() => {
+            setIsLoading(false);
+        }, 3000);
+    }, []);
     return (
         <>
             <Head>
