@@ -15,6 +15,8 @@ const skills: Skill[] = [
     {name: 'Banco de dados não relacional (MongoDB)', level: 'Intermediário'},
     {name: 'Deploy com Google Cloud Functions', level: 'Intermediário'},
     {name: 'Testes unitários e e2e com Jest', level: 'Intermediário'},
+    {name: 'Criação de BI', level: 'Intermediário'},
+    {name: 'Criação de triggers mongoDB', level: 'Avançado'},
 ];
 
 const Skills: React.FC = () => {
