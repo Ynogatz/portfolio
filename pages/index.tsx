@@ -56,7 +56,7 @@ const IndexPage = () => {
             <MainContainer>
                 <Title>Olá, eu sou o Ygor Nogatz</Title>
                 <Subtitle>Bem-vindo ao meu portfólio</Subtitle>
-                <p>Conheça mais sobre minha trajetória profissional e habilidades:</p>
+                <p>Descubra minha história e o que me trouxe até aqui: uma jornada repleta de aprendizado, desafios e conquistas no universo profissional. Conheça minhas habilidades e competências que me permitem desenvolver projetos inovadores e solucionar problemas com eficiência. Fique à vontade para explorar minha trajetória e descobrir como posso contribuir com seus projetos e objetivos. </p>
                 <Link href="/about">Sobre mim</Link>
                 <Link href="/experience">Histórico Profissional</Link>
                 <Link href="/skills">Competências</Link>
