@@ -47,9 +47,8 @@ const Experience = () => {
                 No Cado Tecnologia, realizava o suporte atendendo as empresas que utilizavam o sistema, importação de
                 base de
                 clientes, realizava consulta no banco de dados (PostgreSQL) para tirar relatórios, como eu já estudava
-                JavaScript e Node, também realizava pequenas funcionalidades do sistema, como CRUDS, pequenas
-                integrações e
-                implementação de testes em Jest.
+                JavaScript e Node, também realizava o desenvolvimento de pequenas funcionalidades do sistema, como CRUDS, pequenas
+                integrações e implementação de testes em Jest.
             </Description>
             <BackButton />
         </ExperienceContainer>
