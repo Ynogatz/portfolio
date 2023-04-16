@@ -7,16 +7,17 @@ interface Skill {
 }
 
 const skills: Skill[] = [
+    {name: 'Engenharia de prompts para treinamento de IA utilizando a openAI', level: 'Básico'},
+    {name: 'Criação de BI', level: 'Intermediário'},
+    {name: 'Javascript', level: 'Avançado'},
+    {name: 'Typescript', level: 'Avançado'},
+    {name: 'Git', level: 'Avançado'},
     {name: 'Nodejs', level: 'Intermediário'},
     {name: 'Express', level: 'Intermediário'},
     {name: 'NestJS', level: 'Intermediário'},
     {name: 'Banco de dados não relacional (MongoDB)', level: 'Intermediário'},
     {name: 'Deploy com Google Cloud Functions', level: 'Intermediário'},
     {name: 'Testes unitários e e2e com Jest', level: 'Intermediário'},
-    {name: 'Criação de BI', level: 'Intermediário'},
-    {name: 'Javascript', level: 'Avançado'},
-    {name: 'Typescript', level: 'Avançado'},
-    {name: 'Git', level: 'Avançado'},
     {name: 'Criação de triggers mongoDB', level: 'Avançado'},
 ];
 
