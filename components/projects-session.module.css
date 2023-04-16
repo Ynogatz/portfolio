@@ -1,0 +1,12 @@
+.projects-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}

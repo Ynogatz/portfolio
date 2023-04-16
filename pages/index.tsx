@@ -58,6 +58,7 @@ const IndexPage = () => {
                 <Link href="/about">Sobre mim</Link>
                 <Link href="/experience">Histórico Profissional</Link>
                 <Link href="/skills">Competências</Link>
+                <Link href="/projects">Projetos</Link>
             </MainContainer>
         </>
     );
