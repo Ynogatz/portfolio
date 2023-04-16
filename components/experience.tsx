@@ -36,12 +36,10 @@ const Experience = () => {
             <JobTitle>Programador Back-end Júnior (desde 06/2021)</JobTitle>
             <Description>
                 Na Aires Digital, trabalho como programador back-end em NodeJS, sendo responsável por integrações com
-                APIs de
-                instituições financeiras, desenvolvimento de sistemas de back-office e testes do sistema. Minhas
-                contribuições
-                vão além do desenvolvimento de código, já que busco sempre dar sugestões de melhoria para a usabilidade
-                do
-                sistema e para a integração com outras ferramentas.
+                APIs de instituições financeiras, desenvolvimento de sistemas de back-office, criação de tarefas agendadas (JOBS)
+                , testes do sistema, criação de BIs com o objetivo de obter informações de negócio, e
+                também monitoramento do próprio sistema e criação de triggers diretamente no banco de dados. Minhas
+                contribuições vão além do desenvolvimento de código, já que busco sempre dar sugestões de melhoria para a usabilidade do sistema e para a integração com outras ferramentas.
             </Description>
             <Company>Cado Tecnologia</Company>
             <JobTitle>Suporte (11/2019 - 05/2021)</JobTitle>
