@@ -3,6 +3,7 @@ import Head from 'next/head';
 import styled from 'styled-components';
 
 import Header from '../components/header';
+import Loading from "../components/loading";
 
 const MainContainer = styled.main`
   max-width: 800px;
@@ -43,10 +44,11 @@ const IndexPage = () => {
         // Simulando um tempo de carregamento de 3 segundos
         setTimeout(() => {
             setIsLoading(false);
-        }, 3000);
+        }, 500);
     }, []);
     return (
         <>
+            {isLoading && <Loading />}
             <Head>
                 <title>Ygor Nogatz - Portfólio</title>
             </Head>
