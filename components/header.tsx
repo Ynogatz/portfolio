@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 
 const HeaderContainer = styled.header`
   background-color: #343a40;
@@ -52,6 +52,14 @@ const Header: React.FC = () => {
                         rel="noopener noreferrer"
                     >
                         <FaLinkedin />
+                    </IconLink>
+                    <IconLink
+                        href="mailto:ynogatzds@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="E-mail"
+                    >
+                        <FaMailBulk />
                     </IconLink>
                 </IconContainer>
             </Container>
