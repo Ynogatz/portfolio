@@ -1,8 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaMailBulk, FaWhatsapp } from 'react-icons/fa';
 
 const HeaderContainer = styled.header`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   background-color: #343a40;
   padding: 1rem 0;
 `;
@@ -33,7 +38,7 @@ const IconLink = styled.a`
   font-size: 1.5rem;
 `;
 
-const Header: React.FC = () => {
+const Header: React.FC = () => {2
     return (
         <HeaderContainer>
             <Container>
@@ -60,6 +65,14 @@ const Header: React.FC = () => {
                         aria-label="E-mail"
                     >
                         <FaMailBulk />
+                    </IconLink>
+                    <IconLink
+                        href="https://wa.me/5541984538992"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="E-mail"
+                    >
+                        <FaWhatsapp size={24}/>
                     </IconLink>
                 </IconContainer>
             </Container>
